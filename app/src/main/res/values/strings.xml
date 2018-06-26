@@ -88,7 +88,7 @@
     <string name="api_send_json_signup_doctor">doctor</string>
     <string name="api_send_json_signup_marital">maritalStatus</string>
 
-
+    <string name="api_send_json_signup_langKey">langKey</string>
     <string name="api_send_json_signup_login">login</string>
 
     <string name="api_send_json_signup_ethnicity">ethnicity</string>

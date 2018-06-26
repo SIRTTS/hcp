@@ -208,9 +208,9 @@ public class signupActivityFragment extends Fragment implements View.OnClickList
         getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                if(statusCode== 201) {
+                if(statusCode == 201) {
                     mProgressbar.setVisibility(View.INVISIBLE);
-                    Toast.makeText(getActivity(), "Congratulations! Log in now!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Congratulations! Check your email!", Toast.LENGTH_LONG).show();
                     getActivity().onBackPressed();
                 }
                 else{
@@ -233,6 +233,7 @@ public class signupActivityFragment extends Fragment implements View.OnClickList
         m.put(getString(R.string.api_send_json_signup_doctor),isdoctor);
         m.put(getString(R.string.api_send_json_signup_marital),marital);
         m.put(getString(R.string.api_send_json_signup_login),username);
+        m.put(getString(R.string.api_send_json_signup_langKey),"en");
 
         Log.e(REQUEST_TAG, "sendData: "+(new JSONObject(m)).toString());
         return new JSONObject(m);
