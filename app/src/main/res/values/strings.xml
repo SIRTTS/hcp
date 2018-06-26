@@ -7,55 +7,68 @@
     <string name="shared_isUserLoged">isUserloged</string>
     <string name="shared_userId">userId</string>
     <string name="shared_gender">gender</string>
-    ''
+    
 
     <!--Development-->
-    <string name="api_url_login">http://10.0.2.2:8080/api/authenticate</string>
-    <string name="api_header_error_key">x-hcportalapp-error</string>
-    <string name="api_url_signup">http://10.0.2.2:8080/api/register</string>
-    <string name="api_url_period">http://10.0.2.2:8080/api/menstrual-cycles</string>
-    <string name="api_url_sugar">http://10.0.2.2:8080/api/diabetes-sugar-tests</string>
-    <string name="api_url_sugar_list">http://10.0.2.2:8080/api/diabetes-sugar-tests/byUserid</string>
-    <string name="api_url_Period_list">http://10.0.2.2:8080/api/menstrual-cycles/byUserid</string>
-    <string name="api_url_bloodVital">http://10.0.2.2:8080/api/vs-blood-pressures</string>
-    <string name="api_url_heartVital">http://10.0.2.2:8080/api/vs-heart-rates</string>
-    <string name="api_url_tempVital">http://10.0.2.2:8080/api/vs-body-temperatures</string>
-    <string name="api_url_respVital">http://10.0.2.2:8080/api/vs-respiratory-rates</string>
-    <string name="api_url_spo2Vital">http://10.0.2.2:8080/api/vs-spo-2-s</string>
-    <string name="api_url_bloodVital_list">http://10.0.2.2:8080/api/vs-blood-pressures/byUserid</string>
-    <string name="api_url_heartVital_list">http://10.0.2.2:8080/api/vs-heart-rates/byUserid</string>
-    <string name="api_url_tempVital_list">http://10.0.2.2:8080/api/vs-body-temperatures/byUserid</string>
-    <string name="api_url_respVital_list">http://10.0.2.2:8080/api/vs-respiratory-rates/byUserid</string>
-    <string name="api_url_spo2Vital_list">http://10.0.2.2:8080/api/vs-spo-2-s/byUserid</string>
-    <string name="api_url_blood_columns">http://10.0.2.2:8080/api/blood-tests/columns</string>
-    <string name="api_url_blood_list">http://10.0.2.2:8080/api/blood-tests/byUserid</string>
-    <string name="api_url_blood_get">http://10.0.2.2:8080/api/blood-tests/</string>
-    <string name="api_url_blood_set">http://10.0.2.2:8080/api/blood-tests</string>
-    <string name="api_url_dentist_columns">http://10.0.2.2:8080/api/dentist-visits/columns</string>
-    <string name="api_url_dentist_list">http://10.0.2.2:8080/api/dentist-visits/byUserid</string>
-    <string name="api_url_dentist_get">http://10.0.2.2:8080/api/dentist-visits/</string>
-    <string name="api_url_dentist_set">http://10.0.2.2:8080/api/dentist-visits</string>
-    <string name="api_url_dentist_update_next_visit">http://10.0.2.2:8080/api/dentist-next-visits</string>
+    <!--<string name="api_url_login">http://10.0.2.2:8080/api/authenticate</string>-->
+    <!--<string name="api_header_error_key">x-hcportalapp-error</string>-->
+    <!--<string name="api_url_signup">http://10.0.2.2:8080/api/register</string>-->
+    <!--<string name="api_url_period">http://10.0.2.2:8080/api/menstrual-cycles</string>-->
+    <!--<string name="api_url_sugar">http://10.0.2.2:8080/api/diabetes-sugar-tests</string>-->
+    <!--<string name="api_url_sugar_list">http://10.0.2.2:8080/api/diabetes-sugar-tests/byUserid</string>-->
+    <!--<string name="api_url_Period_list">http://10.0.2.2:8080/api/menstrual-cycles/byUserid</string>-->
+    <!--<string name="api_url_bloodVital">http://10.0.2.2:8080/api/vs-blood-pressures</string>-->
+    <!--<string name="api_url_heartVital">http://10.0.2.2:8080/api/vs-heart-rates</string>-->
+    <!--<string name="api_url_tempVital">http://10.0.2.2:8080/api/vs-body-temperatures</string>-->
+    <!--<string name="api_url_respVital">http://10.0.2.2:8080/api/vs-respiratory-rates</string>-->
+    <!--<string name="api_url_spo2Vital">http://10.0.2.2:8080/api/vs-spo-2-s</string>-->
+    <!--<string name="api_url_bloodVital_list">http://10.0.2.2:8080/api/vs-blood-pressures/byUserid</string>-->
+    <!--<string name="api_url_heartVital_list">http://10.0.2.2:8080/api/vs-heart-rates/byUserid</string>-->
+    <!--<string name="api_url_tempVital_list">http://10.0.2.2:8080/api/vs-body-temperatures/byUserid</string>-->
+    <!--<string name="api_url_respVital_list">http://10.0.2.2:8080/api/vs-respiratory-rates/byUserid</string>-->
+    <!--<string name="api_url_spo2Vital_list">http://10.0.2.2:8080/api/vs-spo-2-s/byUserid</string>-->
+    <!--<string name="api_url_blood_columns">http://10.0.2.2:8080/api/blood-tests/columns</string>-->
+    <!--<string name="api_url_blood_list">http://10.0.2.2:8080/api/blood-tests/byUserid</string>-->
+    <!--<string name="api_url_blood_get">http://10.0.2.2:8080/api/blood-tests/</string>-->
+    <!--<string name="api_url_blood_set">http://10.0.2.2:8080/api/blood-tests</string>-->
+    <!--<string name="api_url_dentist_columns">http://10.0.2.2:8080/api/dentist-visits/columns</string>-->
+    <!--<string name="api_url_dentist_list">http://10.0.2.2:8080/api/dentist-visits/byUserid</string>-->
+    <!--<string name="api_url_dentist_get">http://10.0.2.2:8080/api/dentist-visits/</string>-->
+    <!--<string name="api_url_dentist_set">http://10.0.2.2:8080/api/dentist-visits</string>-->
+    <!--<string name="api_url_dentist_update_next_visit">http://10.0.2.2:8080/api/dentist-next-visits</string>-->
 
 
     <!--Development-->
 
     <!--Production-->
-    <!--<string name="api_url_login">http://hcp.cloudhub.io/login</string>-->
-    <!--<string name="api_url_signup">http://hcp.cloudhub.io/register</string>-->
-    <!--<string name="api_url_vital">http://hcp.cloudhub.io/vital_signs</string>-->
-    <!--<string name="api_url_period">http://hcp.cloudhub.io/menstrual_cycle/set</string>-->
-    <!--<string name="api_url_sugar">http://hcp.cloudhub.io/sugar_test/set</string>-->
-    <!--<string name="api_url_sugar_list">http://hcp.cloudhub.io/sugar_test</string>-->
-    <!--<string name="api_url_Period_list">http://hcp.cloudhub.io/menstrual_cycle</string>-->
-    <!--<string name="api_url_bloodVital">http://hcp.cloudhub.io/blood_pressure/set</string>-->
-    <!--<string name="api_url_heartVital">http://hcp.cloudhub.io/heart_rate/set</string>-->
-    <!--<string name="api_url_tempVital">http://hcp.cloudhub.io/body_temperature/set</string>-->
-    <!--<string name="api_url_respVital">http://hcp.cloudhub.io/respiratory_rate/set</string>-->
-    <!--<string name="api_url_bloodVital_list">http://hcp.cloudhub.io/blood_pressure</string>-->
-    <!--<string name="api_url_heartVital_list">http://hcp.cloudhub.io/heart_rate</string>-->
-    <!--<string name="api_url_tempVital_list">http://hcp.cloudhub.io/body_temperature</string>-->
-    <!--<string name="api_url_respVital_list">http://hcp.cloudhub.io/respiratory_rate</string>-->
+    <string name="api_url_login">http://hcp.westeurope.cloudapp.azure.com:5980/api/authenticate</string>
+    <string name="api_header_error_key">x-hcportalapp-error</string>
+    <string name="api_url_signup">http://hcp.westeurope.cloudapp.azure.com:5980/api/register</string>
+    <string name="api_url_period">http://hcp.westeurope.cloudapp.azure.com:5980/api/menstrual-cycles</string>
+    <string name="api_url_sugar">http://hcp.westeurope.cloudapp.azure.com:5980/api/diabetes-sugar-tests</string>
+    <string name="api_url_sugar_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/diabetes-sugar-tests/byUserid</string>
+    <string name="api_url_Period_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/menstrual-cycles/byUserid</string>
+    <string name="api_url_bloodVital">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-blood-pressures</string>
+    <string name="api_url_heartVital">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-heart-rates</string>
+    <string name="api_url_tempVital">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-body-temperatures</string>
+    <string name="api_url_respVital">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-respiratory-rates</string>
+    <string name="api_url_spo2Vital">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-spo-2-s</string>
+    <string name="api_url_bloodVital_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-blood-pressures/byUserid</string>
+    <string name="api_url_heartVital_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-heart-rates/byUserid</string>
+    <string name="api_url_tempVital_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-body-temperatures/byUserid</string>
+    <string name="api_url_respVital_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-respiratory-rates/byUserid</string>
+    <string name="api_url_spo2Vital_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/vs-spo-2-s/byUserid</string>
+    <string name="api_url_blood_columns">http://hcp.westeurope.cloudapp.azure.com:5980/api/blood-tests/columns</string>
+    <string name="api_url_blood_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/blood-tests/byUserid</string>
+    <string name="api_url_blood_get">http://hcp.westeurope.cloudapp.azure.com:5980/api/blood-tests/</string>
+    <string name="api_url_blood_set">http://hcp.westeurope.cloudapp.azure.com:5980/api/blood-tests</string>
+    <string name="api_url_dentist_columns">http://hcp.westeurope.cloudapp.azure.com:5980/api/dentist-visits/columns</string>
+    <string name="api_url_dentist_list">http://hcp.westeurope.cloudapp.azure.com:5980/api/dentist-visits/byUserid</string>
+    <string name="api_url_dentist_get">http://hcp.westeurope.cloudapp.azure.com:5980/api/dentist-visits/</string>
+    <string name="api_url_dentist_set">http://hcp.westeurope.cloudapp.azure.com:5980/api/dentist-visits</string>
+    <string name="api_url_dentist_update_next_visit">http://hcp.westeurope.cloudapp.azure.com:5980/api/dentist-next-visits</string>
+
+
     <!--Production-->
 
     <string name="api_send_json_login_username">username</string>
